@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #323d4d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    line-height: 1,3;
+    letter-spacing: .0001em;
+    padding: 20% 0 0 0;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    line-height: 1,3;
+    letter-spacing: .0001em;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: .0001em;
+}
+
+p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.big-title {
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    line-height: 1,3;
+    letter-spacing: .0001em;
+}
+
+
+section {
+    height: 100%;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+section .inner {
+    margin: 0 auto;
+    max-width: 85%;
+}
+
+section#one {
+    background-color: #323d4d;;
+}
+
+section#two {
+    background-color: #323d4d;
+}
+
+section#three {
+    background-color: #009ae7;
+}
+
+section#four {
+    background-color: #00679a;
+    transition: all 0.4s linear;
+}
+
+section#four.is-active {
+    background-color: #222;
+}
+
+
+.grid-12 {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-column: 1/span 12;
+}
+
+.slide{
+    height: 100vh;
+}
+
+.slide .box {
+    grid-column: 3 /span 8;
+    grid-row: 1 /span 12;
+    width: 100%;
+}
+
+.slide .slide-info {
+    background: #FFF;
+    grid-column: 3 /span 2;
+    grid-row: 2 /span 4;
+    padding-top: 20px;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.overlay {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #323d4d;
+    width: 100%;
+    height: 100%;
+}
