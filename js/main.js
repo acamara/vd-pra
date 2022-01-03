@@ -29,12 +29,12 @@ $("section").each(function(){
         triggerHook: 'onLeave',
     })
     .setPin(this)
-    .addIndicators({
-        colorStart: "rgba(255,255,255,0.5)",
-        colorEnd: "rgba(255,255,255,0.5)", 
-        colorTrigger : "rgba(255,255,255,1)",
-        name:name
-        })
+    //.addIndicators({
+    //    colorStart: "rgba(255,255,255,0.5)",
+    //    colorEnd: "rgba(255,255,255,0.5)", 
+    //    colorTrigger : "rgba(255,255,255,1)",
+    //    name:name
+    //    })
     .addTo(ctrl);
 
     // Make a scrollMagic Scene
@@ -43,7 +43,7 @@ $("section").each(function(){
         triggerHook: 0.2, //'onCenter',
     })
     .setTween(animateIn)
-    .addIndicators()
+    //.addIndicators()
     .addTo(ctrl);
      
 });
