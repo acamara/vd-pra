@@ -49,7 +49,7 @@ $("section").each(function(){
 });
 
 new ScrollMagic.Scene({
-  offset: wh*11
+  offset: wh*12
 })
-.setClassToggle("section#twelve", "is-active")
+.setClassToggle("section#thirteen", "is-active")
 .addTo(ctrl);

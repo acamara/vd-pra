@@ -138,10 +138,14 @@ section#eleven {
 
 section#twelve {
     background-color: #323d4d;
+}
+
+section#thirteen {
+    background-color: #323d4d;
     transition: all 0.4s linear;
 }
 
-section#twelve.is-active {
+section#thirteen.is-active {
     background-color: #222;
 }
 
@@ -173,7 +177,7 @@ section#twelve.is-active {
 .slide .slide-info-center {
     background-color: white;
     grid-column: 4 /span 6;
-    grid-row: 5 /span 5;
+    grid-row: 5 /span 1;
     padding: 20px 40px 20px 40px;
 }
 
@@ -193,6 +197,28 @@ section#twelve.is-active {
     /*background: rgb(32, 158, 0);*/
     grid-column: 3 /span 2;
     grid-row: 6 /span 1;
+}
+
+.slide .slide-footer-center {
+    grid-column: 4 /span 6;
+    grid-row: 12 /span 1;
+    padding: 20px 40px 20px 40px;
+}
+
+.slide .slide-footer-center p {
+    font-weight: 100;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(170, 170, 170);
+    text-align: left;
+}
+
+.slide .slide-footer-center a {
+    font-weight: 100;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(190, 190, 190);
+    text-align: left;
 }
 
 .box {
